@@ -1,23 +1,32 @@
-Voici un exemple de README.md que tu peux utiliser pour documenter ton projet de conjugueur de verbes en C sur GitHub :
+# 🇫🇷 Conjugueur de Verbes Français en C
 
-🇫🇷 Conjugueur de Verbes Français en C
-Un programme en C permettant de conjuguer automatiquement des verbes français au présent, imparfait, passé simple et futur simple, en tenant compte :
+Un programme en **C** permettant de conjuguer automatiquement des verbes français au :
+- **présent**
+- **imparfait**
+- **passé simple**
+- **futur simple**
 
-des trois groupes de verbes,
+En tenant compte :
+- des **trois groupes de verbes** (1er, 2e, 3e),
+- des **formes pronominales** (ex : *se laver*, *s’endormir*...),
+- des **accents** (conversion ASCII ↔ UTF-8),
+- de nombreuses **exceptions du 3e groupe**.
 
-des formes pronominales (ex: se laver, s’amuser),
+---
 
-des accents (conversion ASCII ↔ UTF-8),
+## ✨ Fonctionnalités
 
-de nombreuses exceptions du troisième groupe.
+- 🔍 Détection automatique du **groupe** du verbe.
+- 🔁 Gestion des **verbes pronominaux**.
+- 🔤 Conversion entre **caractères accentués** et **équivalents ASCII**.
+- 🧠 Gestion des **formes irrégulières** et **cas particuliers**.
+- 📄 Lecture d’un fichier `verbes.txt` pour lister les verbes reconnus.
 
-✨ Fonctionnalités
-Détection automatique du groupe du verbe (1er, 2e ou 3e).
+---
 
-Gestion des verbes pronominaux : se lever, s'endormir...
+## 🚀 Utilisation
 
-Conversion entre caractères accentués et leurs équivalents ASCII.
+### 1. Compilation
 
-Gestion des formes irrégulières et cas particuliers pour les verbes du 3e groupe.
-
-Lecture d’un fichier verbes.txt pour alimenter la base de données des verbes.
+```bash
+gcc -o conjugueur conjugueur.c
