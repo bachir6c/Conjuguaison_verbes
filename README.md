@@ -1,64 +1,23 @@
-# Conjuguaison_verbes
+Voici un exemple de README.md que tu peux utiliser pour documenter ton projet de conjugueur de verbes en C sur GitHub :
 
-# README
+🇫🇷 Conjugueur de Verbes Français en C
+Un programme en C permettant de conjuguer automatiquement des verbes français au présent, imparfait, passé simple et futur simple, en tenant compte :
 
-## Description
-Ce projet fait  une  Conjugaison de tous les verbes aux temps simples de l’indicatif(mes premiers pas avec la manipulation de données).. Il est écrit en langage C.
+des trois groupes de verbes,
 
-## Prérequis
-Avant d'exécuter ce projet, assurez-vous d'avoir téléchargé le fichier verbes.txt :
+des formes pronominales (ex: se laver, s’amuser),
 
+des accents (conversion ASCII ↔ UTF-8),
 
-## Installation
-1. Clonez ce dépôt :
-   ```bash
-   git clone [URL du dépôt]
-   ```
-2. Accédez au répertoire du projet :
-   ```bash
-   cd [nom_du_dossier]
-   ```
-3. Installez les dépendances :
-   ```bash
-   [commande d'installation, ex: pip install -r requirements.txt]
-   ```
+de nombreuses exceptions du troisième groupe.
 
-## Utilisation
-Exécutez le script principal avec :
-```bash
-[commande pour exécuter le code, ex: python main.py]
-```
+✨ Fonctionnalités
+Détection automatique du groupe du verbe (1er, 2e ou 3e).
 
-### Options disponibles
-- `option1` : [Description]
-- `option2` : [Description]
+Gestion des verbes pronominaux : se lever, s'endormir...
 
-## Structure du projet
-```
-[Nom_du_projet]/
-│── src/                  # Code source
-│── docs/                 # Documentation
-│── tests/                # Tests unitaires
-│── README.md             # Documentation du projet
-│── requirements.txt      # Dépendances (si applicable)
-│── main.py               # Point d'entrée principal (si applicable)
-```
+Conversion entre caractères accentués et leurs équivalents ASCII.
 
-## Contributions
-Les contributions sont les bienvenues ! Pour contribuer :
-1. Forkez le projet
-2. Créez une branche (`git checkout -b feature/NouvelleFonctionnalité`)
-3. Faites vos modifications et committez (`git commit -m 'Ajout d'une nouvelle fonctionnalité'`)
-4. Poussez votre branche (`git push origin feature/NouvelleFonctionnalité`)
-5. Ouvrez une Pull Request
+Gestion des formes irrégulières et cas particuliers pour les verbes du 3e groupe.
 
-## Auteurs
-- **[Votre Nom]** - [Votre Email ou Profil GitHub]
-
-## Licence
-Ce projet est sous licence [Nom de la licence]. Consultez le fichier `LICENSE` pour plus de détails.
-
-## Remerciements
-- [Mentionnez toute personne ou ressource qui a contribué au projet]
-
-
+Lecture d’un fichier verbes.txt pour alimenter la base de données des verbes.
